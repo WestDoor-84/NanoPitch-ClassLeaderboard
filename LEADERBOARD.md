@@ -10,7 +10,7 @@ Ranked by **Realtime RPA (clean condition)** — Raw Pitch Accuracy of the strea
 
 | Rank | Student | RPA Clean ↑ | RPA 0 dB ↑ | RPA -5 dB ↑ | VAD Acc ↑ | Median Err ↓ | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Charis Test | — | — | — | — | — | Baseline run with default hyperparameters (gru_size=96, cond_size=64, lr=1e-3). |
+| 1 | Charis Test | 94.8% | — | 88.0% | 98.3% | 6.5¢ | Baseline run with default hyperparameters (gru_size=96, cond_size=64, lr=1e-3). |
 
 ---
 
