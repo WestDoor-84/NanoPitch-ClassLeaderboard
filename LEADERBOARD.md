@@ -4,7 +4,13 @@ Ranked by **Realtime RPA (clean condition)** — Raw Pitch Accuracy of the strea
 
 > **Higher is better** for RPA and VAD Accuracy.  **Lower is better** for Median Cent Error.
 
-*No submissions yet.*
+*Last updated: 2026-04-08*
+
+## Results
+
+| Rank | Student | RPA Clean ↑ | RPA 0 dB ↑ | RPA -5 dB ↑ | VAD Acc ↑ | Median Err ↓ | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Charis Test | — | — | — | — | — | Baseline run with default hyperparameters (gru_size=96, cond_size=64, lr=1e-3). |
 
 ---
 
