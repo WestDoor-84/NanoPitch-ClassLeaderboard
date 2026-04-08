@@ -58,7 +58,7 @@ def build_table(entries: list[dict]) -> str:
         ("Rank",         None,      None,                    None),
         ("Student",      None,      "student_name",          None),
         ("RPA Clean ↑",  "clean",   "realtime_rpa",          format_pct),
-        ("RPA 0 dB ↑",   "0 dB",    "realtime_rpa",          format_pct),
+        ("RPA 0 dB ↑",   "+0 dB",   "realtime_rpa",          format_pct),
         ("RPA -5 dB ↑",  "-5 dB",   "realtime_rpa",          format_pct),
         ("VAD Acc ↑",    "clean",   "vad_acc",               format_pct),
         ("Median Err ↓", "clean",   "realtime_median_cents", format_cents),
