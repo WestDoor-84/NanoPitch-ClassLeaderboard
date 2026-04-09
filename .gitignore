@@ -1,5 +1,7 @@
 data/
 
+deployment/
+
 .venv/
 venv/
 runs/
