@@ -34,9 +34,11 @@ Both fields are required. `note` appears on the leaderboard and in the PR commen
 
 ## 3. Open a pull request
 
-1. Fork the repo (or create a branch if you have write access).
-2. Add your `submissions/your_name/` directory.
-3. Open a PR against `main`.
+> **Do not fork this repo.** Because it is a template repository, forking puts you in GitHub's fork network and PRs may target the wrong upstream. Use the steps below instead.
+
+1. If you haven't already, click **"Use this template" → "Create a new repository"** on the GitHub repo page to create your own copy.
+2. Clone your copy, add your `submissions/your_name/` directory, and push.
+3. Open a PR from your repo against `main` on this repo.
 
 The bot will automatically:
 - Evaluate your checkpoint against the test set.
