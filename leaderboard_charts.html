@@ -63,7 +63,7 @@
 <body>
   <h1>NanoPitch Student Leaderboard</h1>
   <p class="subtitle">
-    8 submissions &nbsp;·&nbsp; Last updated: 2026-04-16 &nbsp;·&nbsp;
+    9 submissions &nbsp;·&nbsp; Last updated: 2026-04-21 &nbsp;·&nbsp;
     Realtime Viterbi decoder &nbsp;·&nbsp;
     <a href="LEADERBOARD.md">Static MD table</a>
   </p>
@@ -117,6 +117,7 @@
 const D = {
   "labels": [
     "Festus Ewakaa Kahunla",
+    "Dillon Best",
     "Brady Chase",
     "Charis NoiseAugBaseline",
     "Dillon Positive Weight",
@@ -151,6 +152,14 @@ const D = {
       89.36,
       89.54,
       94.08
+    ],
+    [
+      97.01,
+      93.15,
+      91.53,
+      93.34,
+      95.3,
+      94.28
     ],
     [
       96.81,
@@ -219,6 +228,14 @@ const D = {
       5.92
     ],
     [
+      2.99,
+      6.85,
+      8.47,
+      6.66,
+      4.7,
+      5.72
+    ],
+    [
       3.19,
       8.5,
       8.62,
@@ -277,6 +294,7 @@ const D = {
   ],
   "rpa_clean": [
     97.1,
+    97.01,
     96.81,
     96.61,
     95.37,
@@ -287,6 +305,7 @@ const D = {
   ],
   "rpa_macro": [
     91.67,
+    94.1,
     93.42,
     91.89,
     92.2,
@@ -297,6 +316,7 @@ const D = {
   ],
   "ger_clean": [
     2.9,
+    2.99,
     3.19,
     3.39,
     4.63,
@@ -307,6 +327,7 @@ const D = {
   ],
   "ger_macro": [
     8.33,
+    5.9,
     6.58,
     8.11,
     7.8,
@@ -327,6 +348,18 @@ const D = {
       "vdr_macro": 69.83,
       "vad_clean": 79.9,
       "vad_macro": 79.69
+    },
+    {
+      "name": "Dillon Best",
+      "note": "150 epoch, 112 GRU, tweaked VAD RPA loss weights, started with 5 + 20 individual feature training epochs, cosine annealing, 0.6 voiced/unvoiced weighting, augmentation + clean probability",
+      "rpa_clean": 97.01,
+      "rpa_macro": 94.1,
+      "ger_clean": 2.99,
+      "ger_macro": 5.9,
+      "vdr_clean": 78.04,
+      "vdr_macro": 70.72,
+      "vad_clean": 98.45,
+      "vad_macro": 96.4
     },
     {
       "name": "Brady Chase",
